@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./img/fav.png">
+        
+            <div>
+                <input type="text" placeholder="Buscar..." id="inputSearch">
+                <button id="filtrar">filtrar</button>
+        
+            </div>
+            <button id="mostrarCarrito">Ver carrito</button>
+        </nav>
+        
+    </header>
+    
+    <main>
+        <h1 id="title">Shop</h1>
+        <section id="showProducts">
+            <div id="showAllProducts">
+
+            </div>
+           
+        </section>
+        <section id="showProductsCart">
+            <h2>Carrito</h2>
+            <div class="showCart">
+                <div id="cartList">
+                    <h3>Detalle de compra</h3>
+                    <div class="div">
+
+                    </div>
+                    
+                </div>
+                <div id="form">
+                    <h3>Completa tus datos de envío</h3>
+                    <form>
+                        <input type="text" name="name" id="nombre" placeholder="Nombre y apellido">
+                        <input type="email" name="email" id="email" placeholder="Mail">
+                        <input type="text" name="adress" id="direccion" placeholder="direccion">
+                        <button id="terminarPedido">Terminar pedido</button>
+
+                    </form>
+                </div>
+            </div>
+                
+        </section>
+    </main>
+
+    <script src="./scripts/productos.js"></script>
+    <script src="./scripts/script.js"></script>
+    
+
+</body>
+
+</html>

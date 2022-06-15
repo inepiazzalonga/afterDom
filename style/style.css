@@ -1,0 +1,115 @@
+body {
+    background-color: #FDFCDC;
+}
+
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 4em;
+    height: 4em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans';
+    color: #787f7f;
+}
+
+h1 {
+    margin-top: 3em;
+}
+
+
+
+
+#showAllProducts {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#showAllProducts img {
+    width: 18em;
+    height: auto;
+
+}
+
+#cartList {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cartList img {
+    width: 8em;
+    height: auto;
+}
+
+.showCart {
+    display: flex;
+    flex-direction: row;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.div li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+.div h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.alerta{
+    color: red;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#form form {
+    gap: 2em;
+    width: 100%;
+}
+
+#form form input {
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#form form button {
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 45%;
+}
